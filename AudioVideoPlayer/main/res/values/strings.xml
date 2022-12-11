@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AudioVideoPlayer</string>
+    <string name="msg_error_toast">error</string>
+    <string name="msg_error">error</string>
+    <string name="menu_play">play</string>
+    <string name="menu_pause">pause</string>
+    <string name="menu_stop">stop</string>
+    <string name="msg_sorry">sorry</string>
+</resources>
