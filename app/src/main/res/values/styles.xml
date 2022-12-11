@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="baseBtnStyle" parent="Widget.AppCompat.Button">
+        <item name="android:elevation">20dp</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+    <style name="operatorBtnStyle" parent="baseBtnStyle">
+        <item name="android:background">@drawable/btn_selector_shape_operator</item>
+    </style>
+    <style name="numberBtnStyle" parent="baseBtnStyle">
+        <item name="android:background">@drawable/btn_selector_shape_number</item>
+    </style>
+    <style name="equalBtnStyle" parent="baseBtnStyle">
+        <item name="android:background">@drawable/btn_selector_shape_equal</item>
+    </style>
+</resources>
